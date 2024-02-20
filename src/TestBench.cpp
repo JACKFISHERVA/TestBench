@@ -25,7 +25,7 @@ void loop() {
   float AMPS = ((results_CS*multiplier)/12.5);
   float Newtons = ((results_LC*multiplier));
   displayInfo(AMPS, Newtons);
-  
+  Serial.println("Hello World!");
 }
 
 
