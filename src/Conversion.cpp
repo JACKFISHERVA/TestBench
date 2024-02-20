@@ -1,3 +1,4 @@
+/*
 #include <Arduino.h>
 unsigned long Time;
 unsigned long Sensitivity = 1000; //Time in milliseconds
@@ -15,3 +16,4 @@ void loop() {
    Serial.println(sensorValue); 
    delay(Sensitivity); // delay in between reads for stability
 }
+*/
